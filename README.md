@@ -5,7 +5,7 @@ In this exercise, you will create two React apps:
 1. the first app allows users to search by Zip Code and retrieve information about Cities within that Zip Code.
 2. the second app allows the user to search by City name and retrieve that City's related Zip Codes.
 
-To implement these apps, you're given access to a Zip Code API that you can access from your React app. Below is a brief description of how the API works.
+To implement these apps, you're given access to a Zip Code API that you can access from your React app. [Below is a brief description of how the API works](#the-zip-and-city-search-api-documentation-ctp-zip-api).
 
 ## Project 1: Zip Code Search app
 
@@ -13,7 +13,7 @@ In this project you will build a simple Zip Code search app. We will need an inp
 
 ![Input field for searching Zip codes](zip-search-1.png)
 
-We will use the user input to search the ctp-zip-api. If the zip code is valid the API will respond with an object for each city. Use that response to display each city in a separate div like in the following image:
+We will use the user input to [search the ctp-zip-api](#search-by-zip-code). If the zip code is valid the API will respond with an object for each city. Use that response to display each city in a separate div like in the following image:
 
 ![Display City Results](zip-search-2.png)
 
